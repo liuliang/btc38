@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Provides a wrapper for btc38.com api.}
   spec.description   = %q{Provides a wrapper for btc38.com api.}
-  spec.homepage      = "https://github.com:liuliang/btc38"
+  spec.homepage      = "https://github.com/liuliang/btc38"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
