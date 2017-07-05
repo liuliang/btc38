@@ -44,7 +44,7 @@ module Btc38
   end
   
   def self.cancel_order(mk_type, order_id, coinname)
-    post 'cancelOrder', mk_type: mk_type, amount: amount, coinname: coinname
+    post 'cancelOrder', mk_type: mk_type, order_id: order_id, coinname: coinname
   end
   
   def self.order_list(mk_type, coinname)
